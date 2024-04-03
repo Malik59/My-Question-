@@ -1,0 +1,113 @@
+/* reset */
+:root {
+  --primary: #60a3bc;
+  --secondary: #3c6382;
+  --tertiary: #0a3d62;
+  --box-shadow: box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: var(--box-shadow);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* header */
+
+header {
+  padding: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.div_header {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo i{
+  color: var(--primary);
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.logo p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  background-color: #EBF0F1;
+  padding: 0 5px;
+}
+
+.search i {
+  margin-right: 5px;
+  color: #6A6E6D;
+}
+
+.search input {
+  border: none;
+  background-color: #EBF0F1;
+  width: 100%;
+}
+
+.btn_inscription {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn_connexion {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.container_content {
+  background-color: blueviolet;
+  display: flex;
+  flex: 1;
+}
+
+/* sidebar */
+
+.sidebar {
+  background-color: white;
+  width: 200px;
+  height: 100%;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--secondary);
+  padding: 20px;
+}
+
+.div_footer {
+  color: white;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
